@@ -17,6 +17,8 @@ Built as part of a backend internship to understand real-world API development �
 | PHP | Server-side language |
 | Postman | API testing |
 | Git & GitHub | Version control |
+| Bootstrap 5 | Frontend UI |
+| SweetAlert2 | Delete confirmations |
 
 ---
 
@@ -233,6 +235,16 @@ Base URL: `http://127.0.0.1:8000/api`
   ]
 }
 ```
+## 🌐 Web Routes
+
+Base URL: `http://127.0.0.1:8000`
+
+| Route | Description |
+|-------|-------------|
+| GET /books | All books list with search |
+| GET /books/create | Add new book form |
+| GET /books/{id} | Book detail page |
+| GET /books/{id}/edit | Edit book form |
 
 ---
 
@@ -245,6 +257,7 @@ Base URL: `http://127.0.0.1:8000/api`
 | Pagination | ✔ Complete |
 | Search Feature | ✔ Complete |
 | Error Handling | ✔ Complete |
+| Web Frontend (Blade Views) | ✔ Complete |
 
 ---
 
